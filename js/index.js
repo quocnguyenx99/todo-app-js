@@ -34,7 +34,7 @@ function updateTheme(currentTheme) {
 }
 
 themeBtn.addEventListener('click', () => {
-    
+    console.log('clck');
     if(currentTheme === 'dark') {
         currentTheme = 'light'
     } else {
@@ -43,4 +43,6 @@ themeBtn.addEventListener('click', () => {
     updateTheme(currentTheme)
     localStorage.setItem('selected-theme', currentTheme)
 })
+
+
 

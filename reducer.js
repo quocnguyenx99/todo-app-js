@@ -1,6 +1,5 @@
 
 import storage from "./utils/storage.js"
-
 const init = {
     todos: storage.get(),
     filter: 'all',
@@ -10,8 +9,7 @@ const init = {
         completed: todo => todo.completed,
     },
     editIndex: null,
-
-
+    darkTheme: 'dark'
 }
 
 const actions = {
