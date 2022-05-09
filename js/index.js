@@ -5,11 +5,11 @@ const backgroundBtn = document.getElementById('bg-image')
 const darkTheme = 'dark-theme'
 
 
-const darkThemeImage = 'http://127.0.0.1:5500/todo-app/assets/icon-sun.svg'
-const lightThemeImage = 'http://127.0.0.1:5500/todo-app/assets/icon-moon.svg'
+const darkThemeImage = 'assets/icon-sun.svg'
+const lightThemeImage = 'assets/icon-moon.svg'
 
-const darkBackground = 'http://127.0.0.1:5500/todo-app/assets/bg-desktop-dark.jpg'
-const lightBackground = 'http://127.0.0.1:5500/todo-app/assets/bg-desktop-light.jpg'
+const darkBackground = 'assets/bg-desktop-dark.jpg'
+const lightBackground = 'assets/bg-desktop-light.jpg'
 
 
 
