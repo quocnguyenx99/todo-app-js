@@ -2,7 +2,6 @@ import html  from "../core.js";
 
 
 function NewTodo() {
-    console.log('test');
     return html`
         <div class="todo-wrapper">
         <input 

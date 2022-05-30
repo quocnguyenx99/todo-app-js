@@ -9,6 +9,11 @@
         height: 100vh;
     }
 
+    #theme-button {
+        right: 5%;
+        bottom: 78%;
+    }
+
     .header__title {
         position: relative;
         top:5px;
@@ -85,9 +90,14 @@
 }
 
 /* For medium devices */
-@media (min-width: 377px) and (max-width: 740px) {
+@media (min-width: 377px) and (max-width: 739px) {
     .background-img img {
         min-height: 320px;
+    }
+
+    #theme-button {
+        right: 7%;
+        bottom: 78%;
     }
 
     .container {
@@ -160,4 +170,11 @@
         box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
         border-radius: 6px;
     }    
+}
+
+@media (min-width: 739px) and (max-width: 1023px) {
+    #theme-button {
+        right: 17%;
+        bottom: 78%;
+    }
 }

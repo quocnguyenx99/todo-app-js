@@ -3,7 +3,7 @@ import {connect} from "../store.js"
 
 function TotoItem({todo, index, editIndex}) {
     return html`
-        <li class="${todo.completed && 'completed'} ${editIndex === index && 'editing'}">
+        <li draggable="true" class="draggable ${todo.completed && 'completed'} ${editIndex === index && 'editing'}">
             <div class="view">
                 <div class="check"                >
                     <div class="check-mark"  onclick="dispatch('toggle', ${index})"> 

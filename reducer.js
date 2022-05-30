@@ -9,7 +9,6 @@ const init = {
         completed: todo => todo.completed,
     },
     editIndex: null,
-    darkTheme: 'dark'
 }
 
 const actions = {
@@ -56,7 +55,7 @@ const actions = {
     cancelEdit(state) {
         state.editIndex = null
     }
-
+    
 }
 
 export default function reducer(state = init, action, args) {
